@@ -1,0 +1,60 @@
+.class-list-container {
+    max-width: 800px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+    gap: 20px; /* Space between cards */
+}
+
+.class-card {
+    border: 1px solid #ddd; /* Lighter border for better appearance */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside the card */
+    background-color: #f9f9f9; /* Light background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Animation for hover effect */
+}
+
+.class-card:hover {
+    transform: scale(1.02); /* Scale up card on hover */
+}
+
+p {
+    margin: 5px 0; /* Spacing between paragraphs */
+    font-size: 1.1em; /* Slightly larger text for better readability */
+    color: #555; /* Medium gray color for text */
+}
+.button-group {
+    margin-top: 10px; /* Space above button group */
+    display: flex; /* Flexbox for button alignment */
+    gap: 10px; /* Space between buttons */
+}
+
+.view-button,
+.delete-button {
+    padding: 8px 12px; /* Padding for buttons */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text for emphasis */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.view-button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* White text */
+}
+
+.view-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.delete-button {
+    background-color: #dc3545; /* Danger button color */
+    color: white; /* White text */
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker shade on hover */
+}
